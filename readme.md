@@ -1,4 +1,4 @@
-# 🔐 Crypto CIA Project
+# Crypto CIA Project
 
 This project demonstrates a simple implementation of the **CIA Triad in Cryptography**:
 
@@ -8,18 +8,16 @@ This project demonstrates a simple implementation of the **CIA Triad in Cryptogr
 
 ---
 
-## 📌 Features
+## Features
 
-* 🔑 Custom **encryption algorithm** using matrix spiral traversal
-* 🔓 **Decryption algorithm** to recover original text
-* 🧮 Lightweight **hash function** for integrity verification
-* 🧑‍💻 Simple CLI-based input/output
-
----
+* Custom **encryption algorithm** using matrix spiral traversal
+* **Decryption algorithm** to recover original text
+* Lightweight **hash function** for integrity verification
+* Simple CLI-based input/output
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 ### 1. Encryption (`encrypt` function)
 
@@ -28,7 +26,7 @@ This project demonstrates a simple implementation of the **CIA Triad in Cryptogr
 * Reads characters in a **spiral pattern (clockwise)**
 * Produces encrypted text
 
-👉 This ensures **Confidentiality**
+This ensures **Confidentiality**
 
 ---
 
@@ -42,7 +40,7 @@ This project demonstrates a simple implementation of the **CIA Triad in Cryptogr
   * Uses modulo to limit hash size
 * Produces a numeric hash value
 
-👉 This ensures **Integrity** (detects changes in encrypted data)
+This ensures **Integrity** (detects changes in encrypted data)
 
 ---
 
@@ -52,7 +50,7 @@ This project demonstrates a simple implementation of the **CIA Triad in Cryptogr
 * Fills it in the same spiral order used during encryption
 * Reads row-wise to recover original text
 
-👉 This ensures **Availability**
+This ensures **Availability**
 
 ---
 
@@ -77,5 +75,3 @@ Enter step size: 4
 Encrypted: <Vijay Ramadoss>
 Hash Value: <ydssoRVijaama>
 Decrypted: VijayRamadoss
-
-
