@@ -65,8 +65,8 @@ python crypto-cia.py
 ### Input:
 
 ```
-Enter text: HELLO WORLD
-Enter step size: 4
+Enter text: Vijay Ramadoss
+Enter step size: 5
 ```
 
 ### Output:
