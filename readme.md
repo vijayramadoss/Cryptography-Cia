@@ -54,7 +54,7 @@ This ensures **Availability**
 
 ---
 
-## ▶️ Usage
+## Usage
 
 Run the script:
 
@@ -72,6 +72,6 @@ Enter step size: 4
 ### Output:
 
 ```
-Encrypted: <Vijay Ramadoss>
-Hash Value: <ydssoRVijaama>
+Encrypted: Vijay Ramadoss
+Hash Value: ydssoRVijaama
 Decrypted: VijayRamadoss
