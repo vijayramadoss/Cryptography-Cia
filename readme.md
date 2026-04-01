@@ -1,0 +1,81 @@
+# 🔐 Crypto CIA Project
+
+This project demonstrates a simple implementation of the **CIA Triad in Cryptography**:
+
+* **Confidentiality** → Achieved using a custom encryption algorithm
+* **Integrity** → Ensured using a hashing function
+* **Availability** → Supported through decryption to retrieve original data
+
+---
+
+## 📌 Features
+
+* 🔑 Custom **encryption algorithm** using matrix spiral traversal
+* 🔓 **Decryption algorithm** to recover original text
+* 🧮 Lightweight **hash function** for integrity verification
+* 🧑‍💻 Simple CLI-based input/output
+
+---
+
+---
+
+## ⚙️ How It Works
+
+### 1. Encryption (`encrypt` function)
+
+* Removes spaces from input text
+* Arranges characters into a matrix (row-wise)
+* Reads characters in a **spiral pattern (clockwise)**
+* Produces encrypted text
+
+👉 This ensures **Confidentiality**
+
+---
+
+### 2. Hashing (`unique_hash` function)
+
+* Starts with an initial value `h = 17`
+* Iterates through each character:
+
+  * Uses ASCII value (`ord(ch)`)
+  * Applies bitwise XOR and shifting
+  * Uses modulo to limit hash size
+* Produces a numeric hash value
+
+👉 This ensures **Integrity** (detects changes in encrypted data)
+
+---
+
+### 3. Decryption (`decrypt` function)
+
+* Reconstructs the matrix structure
+* Fills it in the same spiral order used during encryption
+* Reads row-wise to recover original text
+
+👉 This ensures **Availability**
+
+---
+
+## ▶️ Usage
+
+Run the script:
+
+```bash
+python crypto-cia.py
+```
+
+### Input:
+
+```
+Enter text: HELLO WORLD
+Enter step size: 4
+```
+
+### Output:
+
+```
+Encrypted: <Vijay Ramadoss>
+Hash Value: <ydssoRVijaama>
+Decrypted: VijayRamadoss
+
+
