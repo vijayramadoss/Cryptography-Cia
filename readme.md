@@ -2,10 +2,6 @@
 
 This project demonstrates a simple implementation of the **CIA Triad in Cryptography**:
 
-* **Confidentiality** → Achieved using a custom encryption algorithm
-* **Integrity** → Ensured using a hashing function
-* **Availability** → Supported through decryption to retrieve original data
-
 ---
 
 ## Features
