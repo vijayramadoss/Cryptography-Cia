@@ -72,6 +72,6 @@ Enter step size: 5
 ### Output:
 
 ```
-Encrypted: Vijay Ramadoss
-Hash Value: ydssoRVijaama
+Encrypted: ydssoRVijaama
+Hash Value: 87571
 Decrypted: VijayRamadoss
